@@ -12,3 +12,6 @@
     - [MergeSort](https://github.com/sonbeo1999hd/JavaScript-Alogthrim-/blob/master/Sort/MergeSort.js)
     - [QuickSort](https://github.com/sonbeo1999hd/JavaScript-Alogthrim-/blob/master/Sort/QuickSort.js)
     - [SelectionSort](https://github.com/sonbeo1999hd/JavaScript-Alogthrim-/blob/master/Sort/SelectionSort.js)
+
+
+# Updatting.... :D:D:D
