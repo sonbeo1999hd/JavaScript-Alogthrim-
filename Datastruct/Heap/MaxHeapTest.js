@@ -1,0 +1,20 @@
+import MaxHeap from './MaxHeap';
+
+let maxHeap = new MaxHeap();
+console.log(maxHeap.isEmty());
+console.log(maxHeap.peek());
+maxHeap.add(5);
+console.log(maxHeap.peek());
+maxHeap.add(3);
+console.log(maxHeap.peek());
+maxHeap.add(2);
+console.log(maxHeap.peek());
+console.log(maxHeap.toString());
+maxHeap.add(10);
+maxHeap.add(1);
+console.log(maxHeap.peek());
+console.log(maxHeap.toString());
+maxHeap.poll();
+console.log(maxHeap.toString());
+maxHeap.remmove(5);
+console.log(maxHeap.toString());

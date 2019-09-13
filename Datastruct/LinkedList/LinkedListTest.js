@@ -1,0 +1,21 @@
+import LinkedList from './LinkedList';
+const linkedList = new LinkedList();
+linkedList.append(5);
+linkedList.append(2);
+linkedList.append(7);
+console.log(linkedList.toString());
+linkedList.prepend(3);
+linkedList.prepend(8);
+console.log(linkedList.toString());
+// var deleteNode = linkedList.delete(2);
+// console.log(deleteNode);
+// console.log(linkedList.find(2));
+// console.log(linkedList.head.value);
+linkedList.deleteTail();
+console.log(linkedList.toString());
+linkedList.deleteHead();
+console.log(linkedList.toString());
+linkedList.append(1);
+linkedList.reverse();
+console.log(linkedList.toString());
+

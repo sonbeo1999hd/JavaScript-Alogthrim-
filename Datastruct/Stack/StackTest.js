@@ -1,0 +1,10 @@
+import Stack from './Stack';
+const stack = new Stack();
+console.log(stack.isEmty());
+stack.push(2);
+stack.push(3);
+stack.push(4);
+console.log(stack.toArray());
+console.log(stack.toString());
+stack.pop();
+console.log(stack.toString());
